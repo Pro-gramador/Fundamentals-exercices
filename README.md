@@ -1,4 +1,4 @@
-# Ejercicio-pr-tica4
+# Fundamentals topics
 Open bootcamp
 
 Those ones are projects that i'm doing from a bootcamp, so this is literally the begining 

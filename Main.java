@@ -1,14 +1,38 @@
+
 public class Main {
 
     public static void main(String[] args) {
-        Persona persona = new Persona();
-        persona.setNombre("Bryant");
-        persona.setEdad(18);
-        persona.setTeléfono("829-874-4466");
+    Cliente cliente = new Cliente();
 
-        System.out.println("Nombre: "+persona.getNombre());
-        System.out.println("Edad: "+persona.getEdad());
-        System.out.println("Teléfono: "+persona.getTeléfono());      
+    cliente.setNombre("Daniela");
+    cliente.setEdad("18");
+    cliente.setTelefono("829-771-0200");
+    cliente.setCredito("123456789");
 
-    }
-}
+    System.out.println("Nombre:"+" "+ cliente.getNombre());
+    System.out.println("Edad:"+" "+ cliente.getEdad());
+    System.out.println("Teléfono:"+" "+ cliente.getTelefono());
+    System.out.println("Crédito:"+" "+ cliente.getCredito());
+    System.out.println();
+
+    //--------------------------------------------------------------------------------------------------------
+
+     Trabajador trabajador = new Trabajador();
+     trabajador.setNombre("Bryant");
+     trabajador.setEdad("18");
+     trabajador.setTelefono("829-899-0909");
+     trabajador.setSalario("500.000");
+
+     System.out.println("Nombre:"+" "+ trabajador.getNombre());
+     System.out.println("Edad:"+" "+ trabajador.getEdad());
+     System.out.println("Teléfono:"+" "+ trabajador.getTelefono());
+     System.out.println("Salario neto mensual:"+" "+ trabajador.getSalario());
+
+ }
+
+        }
+
+
+
+
+
